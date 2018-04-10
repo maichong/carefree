@@ -6,7 +6,7 @@ module.exports = function (callback) {
     try {
       callback = callback();
     } catch (error) {
-      return error;
+      return Promise.resolve(error);
     }
   }
   if (isPromise(callback)) {
@@ -18,5 +18,5 @@ module.exports = function (callback) {
       });
     })
   }
-  return null;
+  return Promise.resolve(null);
 }
