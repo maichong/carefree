@@ -1,0 +1,20 @@
+{
+  "name": "carefree",
+  "version": "1.0.0",
+  "description": "Call a promise or callback function without care any exception",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maichong/carefree.git"
+  },
+  "author": "Liang <liang@maichong.it> (https://github.com/liangxingchen)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maichong/carefree/issues"
+  },
+  "homepage": "https://github.com/maichong/carefree#readme",
+  "dependencies": {
+    "is-promise": "^2.1.0"
+  }
+}
